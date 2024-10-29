@@ -230,6 +230,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button, Select } from 'antd';
 import { GlobalOutlined, CloseOutlined, MenuOutlined } from '@ant-design/icons';
+import Image from 'next/image';
+import logo from '@/../../public/image/logo.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -266,7 +268,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between container px-6">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className='text-[#FF7420] font-medium text-[40px]'>CRM</h1>
+            <Image className='h-16 rounded-lg bg-transparent' src={logo} />
+            {/* <h1 className='text-[#FF7420] font-medium text-[40px]'>CRM</h1> */}
           </div>
 
           {/* Centered Navigation Links */}
