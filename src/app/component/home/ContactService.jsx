@@ -8,7 +8,7 @@ const { Option } = Select;
 
 const QuotePage = () => {
   return (
-    <div className=" py-10 md:container flex flex-col items-center bg-gray-50 mt-10">
+    <div id='contact' className=" py-10 md:container flex flex-col items-center bg-gray-50 mt-10">
       {/* Header Section */}
       <div className=" mb-10 px-4">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">

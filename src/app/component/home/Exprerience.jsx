@@ -6,7 +6,7 @@ import exp from '@/../../public/image/exp.png'
 
 const Exprerience = () => {
     return (
-        <div className=' bg-[#FFF1E9]'>
+        <div id='about' className=' bg-[#FFF1E9]'>
          <div className="md:flex flex-col md:flex-row items-center justify-center gap-6 md:gap-60 ">
   {/* Stats Section */}
   <div className="flex flex-col md:flex-row gap-6 md:mt-0  text-center md:text-left">

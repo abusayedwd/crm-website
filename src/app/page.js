@@ -7,6 +7,7 @@ import ServicePage from "./component/home/Service";
  
 
 export default function Home() {
+ 
   return (
      <div className=" ">
           <Benner />
