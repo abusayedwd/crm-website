@@ -1,8 +1,19 @@
+"use client"
 import React from 'react';
 import bgImage from '@/../../public/image/detailsbg.png'
 import story from '@/../../public/image/story.png'
 import Image from 'next/image';
-const ProjectDetails = () => {
+import { useSingleProjectQuery } from '@/redux/feature/projectById';
+import url from '@/redux/api/baseUrl';
+ 
+ 
+const ProjectDetails = ({project}) => {
+  // const {id} = params;
+   console.log(project);
+   
+   const ImageUrl = project?.data?.projectImage?.publicFileUrl
+   ? url + project?.data?.projectImage?.publicFileUrl
+   : bgImage; 
     return (
         <div>
             <div
@@ -13,6 +24,8 @@ const ProjectDetails = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         boxSizing: 'border-box',
+        height: "500px"
+       
         
       }}
     >
@@ -26,15 +39,18 @@ const ProjectDetails = () => {
       <div className="md:w-1/2 mb-6 md:mb-0">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Story</h2>
         <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
-        </p>
+          {project?.data?.content}
+         </p>
       </div>
       <div className="md:w-1/2">
-        <Image
-          src={story}
-          alt="Our Story"
-          className="rounded-lg shadow-lg object-cover w-full md:h-[500px]"
-        />
+      <Image
+  width={500}
+  height={300}
+  src={ImageUrl}
+  alt="Our Story"
+  className="rounded-lg shadow-lg object-cover w-full md:h-[400px]"
+  priority // Ensure the image loads correctly
+/>
       </div>
     </div>
         </div>

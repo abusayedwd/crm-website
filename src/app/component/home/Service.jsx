@@ -5,8 +5,16 @@ import { Card, Timeline } from "antd";
 import service1 from "@/../../public/image/service1 (2).png";
 import service2 from "@/../../public/image/service2 (2).png";
 import Image from "next/image";
+import { useAllServiceQuery } from "@/redux/feature/service";
+import url from "@/redux/api/baseUrl";
+import Link from "next/link";
 
 const ServicePage = () => {
+  
+  const {data: services} = useAllServiceQuery()
+  console.log(services);
+  
+
   return (
     <div id="service" className="container px-4 mt-2 md:mt-20">
       {/* Timeline Section */}
@@ -81,24 +89,29 @@ const ServicePage = () => {
       <h2 className="lg:text-[44px] md:text-3xl font-medium py-4 text-2xl  mb-6">
         Our Service
       </h2>
-      <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-2 gap-4 md:gap-8 py-6">
+      <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 py-6">
       {/* Service Card 1 */}
-      <div className="relative rounded-lg overflow-hidden shadow-lg">
-        <Image src={service2} alt="service" className="w-full h-64  md:h-60 lg:h-[500px] object-cover opacity-80" />
-        <div className="absolute bottom-0 left-0 right-0 bg-orange-600 bg-opacity-70 p-4 text-white">
-          <h3 className="text-lg md:text-xl font-medium">Electro Technical</h3>
-          <button className="underline text-sm">View more</button>
-        </div>
-      </div>
+      {services?.map(service => 
+    <div key={service?._id} className="relative rounded-lg h-96 overflow-hidden shadow-lg">
+    <Image
+        src={url + service?.serviceImage?.publicFileUrl}
+        alt="The Fallingwater House"
+        width={300}  // Adjusted size
+        height={200}
+       className="w-full h-48  md:h-48 lg:h-[500px] object-cover opacity-80"
+      />
+    <div className="absolute bottom-0 left-0 right-0 bg-orange-600 bg-opacity-70 p-4 text-white">
+      <h3 className="text-lg md:text-xl font-medium">{service?.title}</h3>
+      <button className="underline text-sm">
+      <Link href={service?.link} legacyBehavior passHref>
+      <a target="_blank" rel="noopener noreferrer">View details</a>
+    </Link>
+      </button>
+    </div>
+  </div>
 
-      {/* Service Card 2 */}
-      <div className="relative rounded-lg overflow-hidden shadow-lg">
-        <Image src={service1} alt="service" className="w-full h-64  md:h-60 lg:h-[500px] object-cover opacity-80" />
-        <div className="absolute bottom-0 left-0 right-0 bg-orange-600 bg-opacity-70 p-4 text-white">
-          <h3 className="text-lg md:text-xl font-medium">Electro Technical</h3>
-          <button className="underline text-sm">View more</button>
-        </div>
-      </div>
+      )}
+   
     </div>
     </div>
   );

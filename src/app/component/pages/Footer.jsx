@@ -2,7 +2,8 @@
 import { Input } from 'antd';
 import { MailOutlined, ArrowRightOutlined } from '@ant-design/icons';
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-
+import Image from 'next/image';
+import logo from '@/../../public/logo.png'
 export default function Footer() {
     return(
         <div>
@@ -11,7 +12,9 @@ export default function Footer() {
         
         {/* About Us Section */}
         <div className="md:col-span-2">
-          <h2 className="text-lg font-semibold mb-2">Prianto Arefin</h2>
+          <h2 className="text-lg font-semibold mb-2">
+            <Image className='h-10 w-36' src={logo} />
+          </h2>
           <p className="text-sm">
             With a team of certified professionals and a commitment to high-quality materials and structured work methods, we confidently deliver top-notch building, insulating, and electrotechnical services, ensuring timely project completion.
           </p>

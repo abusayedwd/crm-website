@@ -1,18 +1,39 @@
 "use client"
 
-import React from 'react';
-import { Input, Select, Button } from 'antd';
+import React, { useState } from 'react';
+import { Form, Input, Select, Button, TextArea, notification } from 'antd';
+import { useContactMutation } from '@/redux/feature/contact';
+import toast, { Toaster } from 'react-hot-toast';
 
-const { TextArea } = Input;
+ 
 const { Option } = Select;
 
 const QuotePage = () => {
+ 
+
+ const  [contact, {isLoading}] = useContactMutation()
+ 
+ 
+  const onFinish = async (values) => 
+    console.log('Form values:', values);  
+   try{
+    const res = await contact(values).unwrap();
+    console.log(res)
+    if(res?.statusCode == 201){
+       toast.success(res?.message)
+    }
+   }catch(error){
+    console.log(error)
+   }
+  };
+
   return (
     <div id='contact' className=" py-10 md:container flex flex-col items-center bg-gray-50 mt-10">
       {/* Header Section */}
+      <Toaster />
       <div className=" mb-10 px-4">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-          Leading in Building & Electro Technical
+          Electro Technical
         </h1>
         <div className="flex flex-wrap justify-center mt-4 space-x-2 text-sm md:text-base text-gray-600">
           <span>• Professional Staff</span>
@@ -26,34 +47,82 @@ const QuotePage = () => {
 
     <div className="flex flex-col md:flex-row gap-8 w-full px-4">
       {/* Request a Quote Form */}
-      <div className="bg-orange-500 p-6 rounded-lg shadow-lg w-full md:w-3/5">
-        <h2 className="text-xl font-semibold text-white mb-4">Request A Quote</h2>
-        <p className="text-white mb-6">
+      <div className="bg-[#F5FF5A] p-6 rounded-lg shadow-lg w-full md:w-3/5">
+        <h2 className="text-xl font-semibold  mb-4">Request A Quote</h2>
+        <p className=" mb-6">
           Complete control over products allows us to offer our customers the best quality prices and services. We take great pride in everything we do.
         </p>
-        <form className="space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Input placeholder="Name" className="py-2 px-3" />
-            <Input placeholder="Email" className="py-2 px-3" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Input placeholder="Phone" className="py-2 px-3" />
-            <Select placeholder="Select Your Service" className="w-full">
-              <Option value="electrical">Electrical Service</Option>
-              <Option value="building">Building Service</Option>
-            </Select>
-          </div>
-          <TextArea rows={4} placeholder="Additional Details" className="py-2 px-3" />
-          <Button type="primary" className="w-full bg-black text-white">
-            Submit
-          </Button>
-        </form>
+
+        <Form
+      name="my_form"
+      onFinish={onFinish}
+      layout="vertical"  // Use vertical form layout
+   
+    >
+      <div className='md:flex gap-4'>
+      <Form.Item
+        name="name"
+        label="Name"
+        className=' w-full'
+        rules={[{ required: true, message: 'Please input your name!' }]}
+      >
+        <Input placeholder="Enter your name" />
+      </Form.Item>
+
+      <Form.Item
+        name="email"
+        label="Email"
+         className=' w-full'
+        rules={[{ required: true, message: 'Please input your email!' }, { type: 'email', message: 'Please enter a valid email!' }]}
+      >
+        <Input placeholder="Enter your email" />
+      </Form.Item>
+
+      </div>
+      <div className='md:flex gap-4'>
+     <Form.Item
+        name="phone"
+        label="Phone"
+         className=' w-full'
+        rules={[{ required: true, message: 'Please input your phone number!' }]}
+      >
+        <Input placeholder="Enter your phone number"/>
+      </Form.Item>
+
+      <Form.Item
+        name="serviceName"
+        label="Select Your Service"
+         className=' w-full'
+        rules={[{ required: true, message: 'Please select your service!' }]}
+      >
+        <Select placeholder="Select your service">
+          <Option value="electrical">Electrical Service</Option>
+          <Option value="building">Building Service</Option>
+        </Select>
+      </Form.Item>
+     </div>
+     
+
+      <Form.Item
+        name="description"
+        label="Additional Details"
+      >
+        <Input.TextArea rows={4} placeholder="Enter additional details" />
+      </Form.Item>
+
+      <Form.Item>
+        <Button type="primary" htmlType="submit" className="w-full h-10 !bg-black !text-white">
+          Submit
+        </Button>
+      </Form.Item>
+    </Form>
+
       </div>
 
       {/* Contact Info Section */}
-      <div className="bg-orange-500 p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
-        <h2 className="text-xl font-semibold text-white mb-4">Contact Info</h2>
-        <div className="text-white space-y-2">
+      <div className="bg-[#F5FF5A] p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
+        <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
+        <div className=" space-y-2">
           <p>
             <strong>Our Location:</strong><br />
             18 Office Park Building, 21th Floor Unit C, 18 Simatupang Kav. 18, Jakarta Selatan, 12540

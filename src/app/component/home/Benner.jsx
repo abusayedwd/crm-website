@@ -1,10 +1,12 @@
 import { CheckCircleOutlined } from '@ant-design/icons';
 import benner from '@/../../public/image/benner.png'
+ 
 
 
 export default function Benner() {
     return(
         <div>
+            
           <div className="relative bg-gray-900 text-white md:h-[900px] h-[400px] flex items-center">
   {/* Background Image */}
   <div
@@ -25,7 +27,7 @@ export default function Benner() {
     <div className="flex-1 space-y-4">
       <h1 className="text-3xl md:text-5xl font-bold leading-tight">
         Building the Future <br />
-        <span className="text-orange-500">Together</span>
+        <span className="text-[#F5FF5A]">Together</span>
       </h1>
       <p className="text-base md:text-lg">
         We offer top-quality architectural design, construction, and <br /> electrotechnical services for all your building and <br /> maintenance needs.

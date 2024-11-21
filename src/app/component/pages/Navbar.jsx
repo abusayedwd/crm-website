@@ -268,7 +268,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between container px-6">
           {/* Logo */}
           <div className="flex items-center">
-            <Image className='h-16 rounded-lg bg-transparent' src={logo} />
+            <Image className='md:h-16 h-12 w-36 md:w-60 rounded-lg bg-transparent' src={logo} />
             {/* <h1 className='text-[#FF7420] font-medium text-[40px]'>CRM</h1> */}
           </div>
 
@@ -303,7 +303,7 @@ const Navbar = () => {
               </Select>
             </div>
             <Link href="#contact">
-              <Button className="rounded !text-white !bg-[#FF7420]">Contact Us</Button>
+              <Button className="rounded !text-white !bg-yellow-500">Contact Us</Button>
             </Link>
           </div>
 
