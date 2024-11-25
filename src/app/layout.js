@@ -1,10 +1,12 @@
 // app/layout.js
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "./component/pages/Navbar";
-import Footer from "./component/pages/Footer";
+// import Navbar from "../src/component/pages/Navbar";
+// import Footer from "../src/component/pages/Footer";
 import Head from "next/head";
 import Providers from "@/redux/Provider";
+import Navbar from "./component/pages/Navbar";
+import Footer from "./component/pages/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

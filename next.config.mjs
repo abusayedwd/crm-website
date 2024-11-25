@@ -1,9 +1,15 @@
 /** @type {import('next').NextConfig} */
+// import createNextIntlPlugin from 'next-intl/plugin';
+
+// const withNextIntl = createNextIntlPlugin();
+// const withNextIntl = createNextIntlPlugin()
 const nextConfig = {
     images: {
-      domains: ['192.168.10.168'],  // Add the domain here
+    // Add the domain here
+      domains: ['167.99.11.156','api.lenbec.com'],
     },
   };
   
-  export default nextConfig;
+  export default nextConfig
+  // export default withNextIntl(nextConfig) ;
   

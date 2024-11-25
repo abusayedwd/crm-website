@@ -1,8 +1,9 @@
 "use client";
 
 import React from 'react';
-import ProjectDetails from '../../component/home/ProjectDetails';
+ 
 import { useSinglProjectQuery } from '@/redux/feature/projectById';
+import ProjectDetails from '@/app/component/home/ProjectDetails';
 
 const Details = ({ params }) => {
     const { id } = params;
