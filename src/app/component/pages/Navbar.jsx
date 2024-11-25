@@ -249,7 +249,7 @@ const Navbar = () => {
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 100) {
-      setBackground('bg-[#333]'); // Change to your desired color
+      setBackground('bg-[#191A19]'); // Change to your desired color
     } else {
       setBackground('bg-transparent');
     }
@@ -282,7 +282,7 @@ const Navbar = () => {
 
           {/* Login Button */}
           <div className="hidden md:flex items-center">
-            <div className="flex items-center space-x-2 mr-4">
+            {/* <div className="flex items-center space-x-2 mr-4">
               <GlobalOutlined style={{ fontSize: '18px' }} />
               <Select
                 value={language}
@@ -301,7 +301,7 @@ const Navbar = () => {
                 <Select.Option value="French" style={{ color: 'white' }}>French</Select.Option>
                 <Select.Option value="German" style={{ color: 'white' }}>German</Select.Option>
               </Select>
-            </div>
+            </div> */}
             <Link href="#contact">
               <Button className="rounded !text-white !bg-yellow-500">Contact Us</Button>
             </Link>

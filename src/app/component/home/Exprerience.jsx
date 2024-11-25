@@ -60,12 +60,12 @@ const Exprerience = () => {
    <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
         <h2 className="text-4xl font-bold text-[#F5FF5A]">25 years</h2>
         <h3 className="text-4xl font-bold text-gray-800">of experience!</h3>
-        <p className="text-gray-600 mt-4">
+        <p className=" mt-4">
           We have a team of experienced professionals who have been in the industry for over 25 years. Our contractors
           have a wealth of knowledge and skills that they have acquired over the years, making them experts in their
           field.
         </p>
-        <p className="text-gray-600 mt-4">
+        <p className=" mt-4">
           With 25 years of experience, our contractors have a deep understanding of industry standards and regulations.
           We ensure that all our projects comply with the latest safety and building codes, and that the final product
           meets or exceeds our client’s expectations.
