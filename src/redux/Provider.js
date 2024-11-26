@@ -11,7 +11,7 @@ const Providers = ({children}) => {
         <div>
              <Provider store={store}> 
                 {children}
-        </Provider>
+           </Provider>
         </div>
     );
 };

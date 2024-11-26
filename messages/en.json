@@ -1,0 +1,125 @@
+
+
+{
+    "Navbar": {
+        "home": "Home",
+        "about": "About Us",
+        "service": "Service",
+        "projects": "Project",
+        "contact": "Contact Us",
+        "language": "English",
+        "dutch": "Dutch"
+      },
+ 
+      "Benner": {
+          "title": "Building the Future",
+          "subtitle": "Together",
+          "description": "We offer top-quality architectural design, construction, and ",
+          "text": "electrotechnical services for all your building and",
+          "page": "and maintenance needs."
+      },
+
+    
+        "Exprerience": {
+          "yearsOfExperience": "25+",
+          "projectsCompleted": "378+",
+          "winningGlobalAwards": "69+",
+          "yearsText": "Years of Experience",
+          "projectsText": "Projects Completed",
+          "awardsText": "Winning Global Awards",
+          "qualityControl": "Quality Control System, 100% Satisfaction Guarantee",
+          "professionalStaff": "Highly Professional Staff, Accurate Testing Processes",
+          "workmanship": "Unrivaled Workmanship, Professional and Qualified",
+          "textHeading": "25 years of experience!",
+          "description1": "We have a team of experienced professionals who have been in the industry for over 25 years. Our contractors have a wealth of knowledge and skills that they have acquired over the years, making them experts in their field.",
+          "description2": "With 25 years of experience, our contractors have a deep understanding of industry standards and regulations. We ensure that all our projects comply with the latest safety and building codes, and that the final product meets or exceeds our client’s expectations."
+        },
+
+       
+            "ServicePage": {
+              "step1": "Evaluation And Signing Of The Contract",
+              "step2": "Preparation Of The Work Plan",
+              "step3": "Implementation Of Quality Works",
+              "step4": "Delivering The Project To The Customer",
+              "ourService": "Our Service",
+              "viewDetails": "View details"
+            },
+           
+                "FeaturedProject": {
+                  "title": "Our Projects",
+                  "details": "Details",
+                  "noImage": "No Image Available"
+                },
+           
+              
+                    "QuotePage": {
+                      "header": "Electro Technical",
+                      "services": {
+                        "professionalStaff": "• Professional Staff",
+                        "satisfaction": "• 100% Satisfaction",
+                        "accurateTesting": "• Accurate Testing",
+                        "transparentPricing": "• Transparent Pricing"
+                      },
+                      "quoteForm": {
+                        "requestQuote": "Request A Quote",
+                        "description": "Complete control over products allows us to offer our customers the best quality prices and services. We take great pride in everything we do.",
+                        "nameLabel": "Name",
+                        "emailLabel": "Email",
+                        "phoneLabel": "Phone",
+                        "serviceLabel": "Select Your Service",
+                        "additionalDetailsLabel": "Additional Details",
+                        "submitButton": "Submit"
+                      },
+                      "contactInfo": {
+                        "location": "Our Location:",
+                        "address": "18 Office Park Building, 21st Floor Unit C, 18 Simatupang Kav. 18, Jakarta Selatan, 12540",
+                        "quickContact": "Quick Contact:",
+                        "email": "contact@jhontraktor.co",
+                        "phone": "+62 (877) 2469-7346",
+                        "openingHours": "Opening Hours:",
+                        "workingDays": "Monday - Friday",
+                        "workingHours": "09:00 AM - 06:00 PM",
+                        "contactUs": "Do you have any questions? Just contact us to get help!"
+                      }
+                    },
+               
+                  
+                        "Footer": {
+                          "aboutUs": "With a team of certified professionals and a commitment to high-quality materials and structured work methods, we confidently deliver top-notch building, insulating, and electrotechnical services, ensuring timely project completion.",
+                          "office": {
+                            "title": "Office",
+                            "address": "18 Office Park Building 7th Floor Unit C, \n Jl. TB Simatupang Kav. 18, \n Jakarta Selatan, 12390",
+                            "social": {
+                              "linkedin": "LinkedIn",
+                              "facebook": "Facebook",
+                              "instagram": "Instagram"
+                            }
+                          },
+                          "contact": {
+                            "title": "Contact",
+                            "email": "Email: contact@contractor.co",
+                            "phone": "Phone: (+62) 877-2498-7246"
+                          },
+                          "newsletter": {
+                            "title": "Subscribe To Our Newsletter",
+                            "placeholder": "Enter your email address"
+                          },
+                          "footerBottom": "Copyright © 2023 CompanyAF. All Rights Reserved"
+                        },
+                    
+                    
+                            "ProjectDetails": {
+                              "title": "The Fallingwater House",
+                              "subtitle": "Renovation & Architecture",
+                              "storyTitle": "Our Story",
+                              "content": "The Fallingwater House, designed by Frank Lloyd Wright, is one of the most famous houses in the United States. Its innovative design incorporates the natural landscape, blending architecture with nature. Over the years, the house has undergone several renovations to preserve its beauty and integrity."
+                            }
+                      
+                                
+          
+   
+      
+  
+      
+      
+  }
