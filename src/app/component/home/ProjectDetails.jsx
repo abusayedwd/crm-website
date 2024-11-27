@@ -5,6 +5,9 @@ import story from '@/../../public/image/story.png'
 import Image from 'next/image';
 import { useSingleProjectQuery } from '@/redux/feature/projectById';
 import url from '@/redux/api/baseUrl';
+import Navbar from './Nav2';
+import Footer from './Footer2';
+ 
  
  
 const ProjectDetails = ({project}) => {
@@ -16,6 +19,7 @@ const ProjectDetails = ({project}) => {
    : bgImage; 
     return (
         <div>
+          <Navbar />
             <div
       className="flex items-center justify-center h-[400px] md:h-[650px] bg-center"
       style={{
@@ -53,6 +57,7 @@ const ProjectDetails = ({project}) => {
 />
       </div>
     </div>
+    <Footer />
         </div>
     );
 };
