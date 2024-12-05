@@ -192,7 +192,7 @@ const ServicePage = () => {
 
       {/* Service Section */}
       <h2 className="lg:text-[44px] md:text-3xl font-medium py-4 text-2xl mb-6">
-        {t("ourService")}
+        {t("ourService")} <span className="md:text-[30px] lg:text-[30px] text-sm">{t("span")}</span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 py-6">

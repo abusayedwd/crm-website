@@ -73,17 +73,17 @@ export default function Benner() {
           <div className="flex-1 space-y-4">
             <h1 className="text-3xl md:text-5xl font-bold leading-tight">
               {t('title')} <br />
-              <span className="text-[#F5FF5A]">{t('subtitle')}</span>
+              <span className="">{t('subtitle')}</span>
             </h1>
-            <p className="text-base md:text-lg">
+          <p className="text-3xl md:text-5xl text-[#F5FF5A] font-bold">
               {t('description')}
             </p>
-            <p className="text-base md:text-lg">
+            {/* <p className="text-base md:text-lg">
               {t('text')}
             </p>
             <p className="text-base md:text-lg">
               {t('page')}
-            </p>
+            </p>  */}
           </div>
 
           {/* Info Section (optional, add content if necessary) */}

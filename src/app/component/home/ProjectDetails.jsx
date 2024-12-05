@@ -52,7 +52,7 @@ const ProjectDetails = ({project}) => {
   height={300}
   src={ImageUrl}
   alt="Our Story"
-  className="rounded-lg shadow-lg object-cover w-full md:h-[400px]"
+  className="rounded-lg shadow-lg object-cover md:w-full w-72 h-48 md:h-[400px]"
   priority // Ensure the image loads correctly
 />
       </div>

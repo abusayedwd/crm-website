@@ -1,117 +1,109 @@
 {
-    "Navbar":{
-        "home": "Home",
-        "about": "Over Ons",
-        "service": "Dienst",
-        "projects": "Project",
-        "contact": "Contacteer Ons",
-        "language": "Engels",
-        "dutch": "Dutch"
-      },
-      
-       "Benner": {
-  "title": "De Toekomst Bouwen",
-  "subtitle": "Samen",
-  "description": "Wij bieden hoogwaardige architectonisch ontwerp, bouw- en ",
-  "text": "elektrotechnische diensten voor al uw bouw- en ",
-  "page": "onderhoudsbehoeften."
-},
+  "Navbar": {
+    "home": "Home",
+    "about": "Over Ons",
+    "service": "Dienst",
+    "projects": "Projecten",
+    "contact": "Contacteer Ons",
+    "language": "Engels",
+    "dutch": "Dutch"
+  },
 
- 
-    "Exprerience": {
-      "yearsOfExperience": "25+",
-      "projectsCompleted": "378+",
-      "winningGlobalAwards": "69+",
-      "yearsText": "Jaren ervaring",
-      "projectsText": "Voltooide Projecten",
-      "awardsText": "Winnende Wereldwijde Prijzen",
-      "qualityControl": "Kwaliteitscontrole systeem, 100% tevredenheidsgarantie",
-      "professionalStaff": "Hoge professionele medewerkers, nauwkeurige testprocessen",
-      "workmanship": "Ongeëvenaarde vakmanschap, professioneel en gekwalificeerd",
-      "textHeading": "25 jaar ervaring!",
-      "description1": "We hebben een team van ervaren professionals die al meer dan 25 jaar in de industrie werken. Onze aannemers hebben een schat aan kennis en vaardigheden opgedaan, waardoor ze experts op hun gebied zijn.",
-      "description2": "Met 25 jaar ervaring hebben onze aannemers een diepgaand begrip van de industriestandaarden en voorschriften. We zorgen ervoor dat al onze projecten voldoen aan de nieuwste veiligheids- en bouwvoorschriften en dat het eindproduct voldoet aan of zelfs de verwachtingen van onze klanten overtreft."
+  "Benner": {
+    "title": "Laten We Samen Bouwen",
+    "subtitle": "Uw Partner voor",
+    "description": "Elektrische Installaties"
+  },
+
+  "Exprerience": {
+    "yearsOfExperience": "25+",
+    "projectsCompleted": "378+",
+    "winningGlobalAwards": "69+",
+    "yearsText": "Jaren van Ervaring",
+    "projectsText": "Voltooide Projecten",
+    "awardsText": "Gewonnen Wereldwijde Awards",
+    "qualityControl": "Kwaliteitscontrole Systeem, 100% Tevredenheidsgarantie",
+    "professionalStaff": "Uitermate Professioneel Personeel, Nauwkeurige Testprocessen",
+    "workmanship": "Ongeëvenaarde Vakmanschap, Professioneel en Gekwalificeerd",
+    "textHeading": "Elektrisch Installatiebedrijf met Internationale Expertise!",
+    "description1": "Bij Lenbec hebben we jarenlange ervaring als elektrisch installatiebedrijf, in samenwerking met een verscheidenheid aan partners en klanten. Onze specialisten uit Kroatië brengen uitgebreide internationale expertise, waaronder werk op cruiseschip en grootschalige projecten zoals de bouw van voetbalstadions in Qatar.",
+    "description2": "Naast onze projecten in Nederland werken we ook in Kroatië en bieden we hoogwaardige elektrische installaties."
+  },
+
+  "ServicePage": {
+    "step1": "Evaluatie en Ondertekening van het Contract",
+    "step2": "Voorbereiding van het Werkplan",
+    "step3": "Uitvoering van Kwaliteitswerkzaamheden",
+    "step4": "Levering van het Project aan de Klant",
+    "ourService": "Onze Diensten",
+    "span": "– Compleet Oplossingen voor Elektrische en Veiligheidsbehoeften",
+    "viewDetails": "Bekijk details"
+  },
+
+  "FeaturedProject": {
+    "title": "Enkele van Onze Projecten",
+    "details": "Details",
+    "noImage": "Geen Afbeelding Beschikbaar"
+  },
+
+  "QuotePage": {
+    "header": "Elektrotechnisch",
+    "services": {
+      "professionalStaff": "• Professioneel Personeel",
+      "satisfaction": "• 100% Tevredenheid",
+      "accurateTesting": "• Nauwkeurige Testen",
+      "transparentPricing": "• Transparante Prijzen"
     },
-   
-   
-        "ServicePage": {
-          "step1": "Evaluatie en ondertekening van het contract",
-          "step2": "Voorbereiding van het werkplan",
-          "step3": "Uitvoering van kwaliteitswerk",
-          "step4": "Levering van het project aan de klant",
-          "ourService": "Onze Dienst",
-          "viewDetails": "Bekijk details"
-        },
-       
-            "FeaturedProject": {
-              "title": "Onze Projecten",
-              "details": "Details",
-              "noImage": "Geen afbeelding beschikbaar"
-            },
-           
-         
-                "QuotePage": {
-                  "header": "Electro Technisch",
-                  "services": {
-                    "professionalStaff": "• Professioneel Personeel",
-                    "satisfaction": "• 100% Tevredenheid",
-                    "accurateTesting": "• Nauwkeurige Testen",
-                    "transparentPricing": "• Transparante Prijzen"
-                  },
-                  "quoteForm": {
-                    "requestQuote": "Vraag Een Offerte Aan",
-                    "description": "Volledige controle over producten stelt ons in staat om onze klanten de beste prijs-kwaliteitverhouding en service te bieden. We zijn trots op alles wat we doen.",
-                    "nameLabel": "Naam",
-                    "emailLabel": "E-mail",
-                    "phoneLabel": "Telefoon",
-                    "serviceLabel": "Selecteer Uw Dienst",
-                    "additionalDetailsLabel": "Extra Gegevens",
-                    "submitButton": "Verstuur"
-                  },
-                  "contactInfo": {
-                    "location": "Onze Locatie:",
-                    "address": "18 Office Park Building, 21e Verdieping Unit C, 18 Simatupang Kav. 18, Jakarta Zuid, 12540",
-                    "quickContact": "Snelle Contact:",
-                    "email": "contact@jhontraktor.co",
-                    "phone": "+62 (877) 2469-7346",
-                    "openingHours": "Openingstijden:",
-                    "workingDays": "Maandag - Vrijdag",
-                    "workingHours": "09:00 AM - 06:00 PM",
-                    "contactUs": "Heeft u vragen? Neem contact met ons op voor hulp!"
-                  }
-                },
-           
-         
-                    "Footer": {
-                      "aboutUs": "Met een team van gecertificeerde professionals en een toewijding aan materialen van hoge kwaliteit en gestructureerde werkmethoden leveren we met vertrouwen hoogwaardige bouw-, isolatie- en elektrotechnische diensten, met garantie op tijdige voltooiing van projecten.",
-                      "office": {
-                        "title": "Kantoor",
-                        "address": "18 Office Park Building 7e verdieping Unit C, \n Jl. TB Simatupang Kav. 18, \n Jakarta Selatan, 12390",
-                        "social": {
-                          "linkedin": "LinkedIn",
-                          "facebook": "Facebook",
-                          "instagram": "Instagram"
-                        }
-                      },
-                      "contact": {
-                        "title": "Contact",
-                        "email": "Email: contact@contractor.co",
-                        "phone": "Telefoon: (+62) 877-2498-7246"
-                      },
-                      "newsletter": {
-                        "title": "Abonneer op onze nieuwsbrief",
-                        "placeholder": "Voer uw e-mailadres in"
-                      },
-                      "footerBottom": "Copyright © 2023 CompanyAF. Alle rechten voorbehouden"
-                    },
-                 
-                   
-                        "ProjectDetails": {
-                          "title": "Het Fallingwater Huis",
-                          "subtitle": "Renovatie & Architectuur",
-                          "storyTitle": "Ons Verhaal",
-                          "content": "Het Fallingwater Huis, ontworpen door Frank Lloyd Wright, is een van de beroemdste huizen in de Verenigde Staten. Het innovatieve ontwerp verwerkt het natuurlijke landschap, waardoor architectuur en natuur samenkomen. In de loop der jaren heeft het huis verschillende renovaties ondergaan om de schoonheid en integriteit te behouden."
-                        }
-                    
+    "quoteForm": {
+      "requestQuote": "Vraag een Offerte Aan",
+      "description": "Heeft u vragen of wilt u een offerte aanvragen? Neem dan gerust contact met ons op. Lenbec staat klaar om u te helpen bij al uw elektrotechnische installatiebehoeften.",
+      "nameLabel": "Naam",
+      "emailLabel": "E-mail",
+      "phoneLabel": "Telefoon",
+      "serviceLabel": "Selecteer Uw Dienst",
+      "additionalDetailsLabel": "Aanvullende Details",
+      "submitButton": "Verstuur"
+    },
+    "contactInfo": {
+      "location": "Onze Locatie:",
+      "address": "18 Office Park Building, 21e Verdieping Unit C, 18 Simatupang Kav. 18, Jakarta Selatan, 12540",
+      "quickContact": "Snelle Contacten:",
+      "email": "contact@jhontraktor.co",
+      "phone": "+62 (877) 2469-7346",
+      "openingHours": "Openingstijden:",
+      "workingDays": "Maandag - Vrijdag",
+      "workingHours": "09:00 AM - 06:00 PM",
+      "contactUs": "Heeft u vragen? Neem contact met ons op voor hulp!"
+    }
+  },
+
+  "Footer": {
+    "aboutUs": "Met een team van gecertificeerde professionals en een toewijding aan hoogwaardige materialen en gestructureerde werkmethoden, leveren we met vertrouwen topklasse bouw-, isolatie- en elektrotechnische diensten, met garantie voor tijdige projectoplevering.",
+    "office": {
+      "title": "Kantoor",
+      "address": "18 Office Park Building 7e Verdieping Unit C, \n Jl. TB Simatupang Kav. 18, \n Jakarta Selatan, 12390",
+      "social": {
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "instagram": "Instagram"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "E-mail: contact@contractor.co",
+      "phone": "Telefoon: (+62) 877-2498-7246"
+    },
+    "newsletter": {
+      "title": "Abonneer op onze Nieuwsbrief",
+      "placeholder": "Vul uw e-mailadres in"
+    },
+    "footerBottom": "Copyright © 2023 CompanyAF. Alle Rechten Voorbehouden"
+  },
+
+  "ProjectDetails": {
+    "title": "Het Fallingwater Huis",
+    "subtitle": "Renovatie & Architectuur",
+    "storyTitle": "Ons Verhaal",
+    "content": "Het Fallingwater Huis, ontworpen door Frank Lloyd Wright, is een van de beroemdste huizen in de Verenigde Staten. Het innovatieve ontwerp integreert het natuurlijke landschap, waarbij architectuur en natuur samenkomen. Door de jaren heen heeft het huis verschillende renovaties ondergaan om de schoonheid en integriteit te behouden."
   }
-  
+}
