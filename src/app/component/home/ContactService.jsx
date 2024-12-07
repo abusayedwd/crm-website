@@ -60,7 +60,7 @@
 //       {/* Main Content Section */}
 //       <div className="flex flex-col md:flex-row gap-8 w-full px-4">
 //         {/* Request a Quote Form */}
-//         <div className="bg-[#F5FF5A] p-6 rounded-lg shadow-lg w-full md:w-3/5">
+//         <div className="bg-[#F1DE47] p-6 rounded-lg shadow-lg w-full md:w-3/5">
 //           <h2 className="text-xl font-semibold mb-4">Request A Quote</h2>
 //           <p className="mb-6">
 //             Complete control over products allows us to offer our customers the best quality prices and services. We take great pride in everything we do.
@@ -134,7 +134,7 @@
 //         </div>
 
 //         {/* Contact Info Section */}
-//         <div className="bg-[#F5FF5A] p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
+//         <div className="bg-[#F1DE47] p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
 //           <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
 //           <div className="space-y-2">
 //             <p>
@@ -228,7 +228,7 @@ const QuotePage = () => {
       {/* Main Content Section */}
       <div className="flex flex-col md:flex-row gap-8 w-full px-4">
         {/* Request a Quote Form */}
-        <div className="bg-[#F5FF5A] p-6 rounded-lg shadow-lg w-full md:w-3/5">
+        <div className="bg-[#F1DE47] p-6 rounded-lg shadow-lg w-full md:w-3/5">
           <h2 className="text-xl font-semibold mb-4">{t('quoteForm.requestQuote')}</h2>
           <p className="mb-6">{t('quoteForm.description')}</p>
 
@@ -297,7 +297,7 @@ const QuotePage = () => {
         </div>
 
         {/* Contact Info Section */}
-        <div className="bg-[#F5FF5A] p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
+        <div className="bg-[#F1DE47] p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
           <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
           <div className="space-y-2">
             <p>

@@ -58,10 +58,10 @@ const Navbar = () => {
 
           {/* Centered Navigation Links */}
           <div className="hidden md:flex justify-center text-white flex-grow space-x-8 text-lg">
-            <Link href="/" className="hover:text-[#FF7420] text-[#F5FF5A]">{t('home')}</Link>
-            <Link href="#about" className="hover:text-[#FF7420] text-[#F5FF5A]">{t('about')}</Link>
-            <Link href="#service" className="hover:text-[#FF7420] text-[#F5FF5A]">{t('service')}</Link>
-            <Link href="#projects" className="hover:text-[#FF7420] text-[#F5FF5A]">{t('projects')}</Link>
+            <Link href="/" className="hover:text-[#FF7420] text-[#F1DE47]">{t('home')}</Link>
+            <Link href="#about" className="hover:text-[#FF7420] text-[#F1DE47]">{t('about')}</Link>
+            <Link href="#service" className="hover:text-[#FF7420] text-[#F1DE47]">{t('service')}</Link>
+            <Link href="#projects" className="hover:text-[#FF7420] text-[#F1DE47]">{t('projects')}</Link>
           </div>
 
           {/* Language and Contact Button */}
@@ -85,7 +85,7 @@ const Navbar = () => {
               </Select>
             </div>
             <Link href="#contact">
-              <Button className="rounded md:flex hidden !bg-[#F5FF5A]">{t('contact')}</Button>
+              <Button className="rounded md:flex hidden !bg-[#F1DE47]">{t('contact')}</Button>
             </Link>
           </div>
 

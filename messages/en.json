@@ -46,11 +46,23 @@
             },
            
                 "FeaturedProject": {
-                  "title": "Some of Our Projects",
+                  "title": "Our Projects",
                   "details": "Details",
                   "noImage": "No Image Available"
                 },
            
+                "SomeProject": {
+                  "title": "Some of Our Projects",
+                  "description": "We’re proud of the diverse projects we’ve completed, including:", 
+                    "project1":"Huawei, Waalwijk",
+                    "project2":"Koninginnengracht 10, The Hague (TTG)",
+                    "project3":"Plesmanduin 10, The Hague (Steegman)",
+                    "project4":"Apartments and hotels",
+                    "project5":"Former V&D building, Rotterdam (Steegman)",
+                    "project6":"TomTom building, Amsterdam (TTG)",
+                    "project7":"Complete new installations for two ships (Tehnomont d.o.o. Pula)" 
+                },
+                
               
                     "QuotePage": {
                       "header": "Electro Technical",
@@ -113,7 +125,13 @@
                               "subtitle": "Renovation & Architecture",
                               "storyTitle": "Our Story",
                               "content": "The Fallingwater House, designed by Frank Lloyd Wright, is one of the most famous houses in the United States. Its innovative design incorporates the natural landscape, blending architecture with nature. Over the years, the house has undergone several renovations to preserve its beauty and integrity."
-                            } 
+                            } ,
+                         "Testimonial": {
+                          "title": "Client Testimonials",
+                          "description": "Our clients appreciate our craftsmanship, the high quality of our installations, and our customer-focused service. We strive to meet the highest expectations on every project."
+                        }
+                          
+                           
   }
 
 

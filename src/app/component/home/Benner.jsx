@@ -27,7 +27,7 @@
 //     <div className="flex-1 space-y-4">
 //       <h1 className="text-3xl md:text-5xl font-bold leading-tight">
 //         Building the Future <br />
-//         <span className="text-[#F5FF5A]">Together</span>
+//         <span className="text-[#F1DE47]">Together</span>
 //       </h1>
 //       <p className="text-base md:text-lg">
 //         We offer top-quality architectural design, construction, and <br /> electrotechnical services for all your building and <br /> maintenance needs.
@@ -75,7 +75,7 @@ export default function Benner() {
               {t('title')} <br />
               <span className="">{t('subtitle')}</span>
             </h1>
-          <p className="text-3xl md:text-5xl text-[#F5FF5A] font-bold">
+          <p className="text-3xl md:text-5xl text-[#F1DE47] font-bold">
               {t('description')}
             </p>
             {/* <p className="text-base md:text-lg">

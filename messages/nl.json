@@ -41,10 +41,26 @@
   },
 
   "FeaturedProject": {
-    "title": "Enkele van Onze Projecten",
+    "title": "Onze Projecten",
     "details": "Details",
     "noImage": "Geen Afbeelding Beschikbaar"
   },
+
+  "SomeProject": {
+    "title": "Enkele van Onze Projecten",
+    "description": "We zijn trots op de diverse projecten die we hebben voltooid, waaronder:",
+    "project1": "Huawei, Waalwijk",
+    "project2": "Koninginnengracht 10, Den Haag (TTG)",
+    "project3": "Plesmanduin 10, Den Haag (Steegman)",
+    "project4": "Appartementen en hotels",
+    "project5": "Voormalig V&D-gebouw, Rotterdam (Steegman)",
+    "project6": "TomTom-gebouw, Amsterdam (TTG)",
+    "project7": "Volledige nieuwe installaties voor twee schepen (Tehnomont d.o.o. Pula)"
+  },
+  
+ 
+
+  
 
   "QuotePage": {
     "header": "Elektrotechnisch",
@@ -105,5 +121,11 @@
     "subtitle": "Renovatie & Architectuur",
     "storyTitle": "Ons Verhaal",
     "content": "Het Fallingwater Huis, ontworpen door Frank Lloyd Wright, is een van de beroemdste huizen in de Verenigde Staten. Het innovatieve ontwerp integreert het natuurlijke landschap, waarbij architectuur en natuur samenkomen. Door de jaren heen heeft het huis verschillende renovaties ondergaan om de schoonheid en integriteit te behouden."
+  },
+
+  "Testimonial": {
+    "title": "Klantbeoordelingen",
+    "description": "Onze klanten waarderen ons vakmanschap, de hoge kwaliteit van onze installaties en onze klantgerichte service. We streven ernaar om de hoogste verwachtingen bij elk project te voldoen."
   }
+  
 }

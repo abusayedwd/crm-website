@@ -8,7 +8,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
     images: {
     // Add the domain here
-      domains: ['167.99.11.156','api.lenbec.com'],
+      domains: ['167.99.11.156','192.168.10.168' ,'api.lenbec.com'],
     },
   };
   

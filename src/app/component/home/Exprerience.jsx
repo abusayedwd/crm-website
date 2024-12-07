@@ -11,22 +11,22 @@
 //   {/* Stats Section */}
 //   <div className="flex flex-col md:flex-row gap-6 md:mt-0  text-center md:text-left">
 //     <div>
-//       <span className="text-4xl font-bold text-[#F5FF5A]">25+</span>
+//       <span className="text-4xl font-bold text-[#F1DE47]">25+</span>
 //       <p>Years of Experience</p>
 //     </div>
 //     <div>
-//       <span className="text-4xl font-bold text-[#F5FF5A]">378+ </span>
+//       <span className="text-4xl font-bold text-[#F1DE47]">378+ </span>
 //       <p>Projects Completed</p>
 //     </div>
 //     <div>
-//       <span className="text-4xl font-bold text-[#F5FF5A]">69+</span>
+//       <span className="text-4xl font-bold text-[#F1DE47]">69+</span>
 //       <p>Winning Global Awards</p>
 //     </div>
 //   </div>
 
 //   {/* Checklist Section */}
 //   <div className="mt-6 md:mt-0 relative md:-top-24">
-//     <div className="bg-[#F5FF5A] p-6 rounded-lg font-sans">
+//     <div className="bg-[#F1DE47] p-6 rounded-lg font-sans">
 //       <div className="flex items-center space-x-2 mb-4">
 //         <span className="text-lg">✔</span>
 //         <span>Quality Control System, 100% Satisfaction Guarantee</span>
@@ -58,7 +58,7 @@
 
 //    {/* Text Section */}
 //    <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-//         <h2 className="text-4xl font-bold text-[#F5FF5A]">25 years</h2>
+//         <h2 className="text-4xl font-bold text-[#F1DE47]">25 years</h2>
 //         <h3 className="text-4xl font-bold text-gray-800">of experience!</h3>
 //         <p className=" mt-4">
 //           We have a team of experienced professionals who have been in the industry for over 25 years. Our contractors
@@ -89,7 +89,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';  // Import the useTranslations hook
 import Image from 'next/image';
-import exp from '@/../../public/image/exp.png';
+import exp from '@/../../public/image/crmelectro.jpg';
 
 const Exprerience = () => {
   const t = useTranslations('Exprerience');  // Load translations for 'Exprerience' namespace
@@ -100,22 +100,22 @@ const Exprerience = () => {
         {/* Stats Section */}
         <div className="flex flex-col md:flex-row gap-6 md:mt-0 text-center md:text-left">
           <div>
-            <span className="text-4xl font-bold text-[#F5FF5A]">{t('yearsOfExperience')}</span>
+            <span className="text-4xl font-bold text-[#F1DE47]">{t('yearsOfExperience')}</span>
             <p>{t('yearsText')}</p>
           </div>
           <div>
-            <span className="text-4xl font-bold text-[#F5FF5A]">{t('projectsCompleted')}</span>
+            <span className="text-4xl font-bold text-[#F1DE47]">{t('projectsCompleted')}</span>
             <p>{t('projectsText')}</p>
           </div>
           <div>
-            <span className="text-4xl font-bold text-[#F5FF5A]">{t('winningGlobalAwards')}</span>
+            <span className="text-4xl font-bold text-[#F1DE47]">{t('winningGlobalAwards')}</span>
             <p>{t('awardsText')}</p>
           </div>
         </div>
 
         {/* Checklist Section */}
         <div className="mt-6 md:mt-0 relative md:-top-24">
-          <div className="bg-[#F5FF5A] p-6 rounded-lg font-sans">
+          <div className="bg-[#F1DE47] p-6 rounded-lg font-sans">
             <div className="flex items-center space-x-2 mb-4">
               <span className="text-lg">✔</span>
               <span>{t('qualityControl')}</span>
@@ -136,15 +136,15 @@ const Exprerience = () => {
         {/* Image Section */}
         <div className="md:w-1/2 flex justify-center">
           <Image
-            src={exp} // Replace with the actual path to your image
+            src={exp}  
             alt="Experienced Contractors"
-            className="max-w-full md:h-[420px] rounded-lg"
+            className="max-w-full md:w-[600px] md:h-[420px] rounded-lg"
           />
         </div>
 
         {/* Text Section */}
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-          <h2 className="text-4xl font-bold text-[#F5FF5A]">{t('textHeading')}</h2>
+          <h2 className="text-4xl font-bold text-[#F1DE47]">{t('textHeading')}</h2>
           <p className="mt-4">{t('description1')}</p>
           <p className="mt-4">{t('description2')}</p>
         </div>
