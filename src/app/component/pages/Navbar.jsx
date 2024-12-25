@@ -10,7 +10,8 @@ import { useLocale, useTranslations } from 'next-intl';
    // For route navigation
 import Link from 'next/link';
 import { usePathname, useRouter } from '@/i18n/routing';
-import logo from '@/../../public/image/logo.png';
+// import logo from '@/../../public/image/logo.png';
+import logo from '@/../../public/icon.svg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +54,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between container px-6">
           {/* Logo */}
           <div className="flex items-center">
-            <Image className='md:h-16 h-12 w-32 md:w-60 rounded-lg bg-transparent' src={logo} alt="Logo" />
+            <Image className='md:h-16 h-6 w-32 md:w-60 rounded-lg bg-transparent' src={logo} alt="Logo" />
           </div>
 
           {/* Centered Navigation Links */}

@@ -42,18 +42,13 @@ import ServicePage from "../component/home/Service";
 import SomeProject from "../component/home/SomeProject";
 
 export default function Home() {
-  const metadata = {
-    title: 'Lets Build Together | Electrical Installation Company for Wiring, Networks, and Safety Solutions',
-    description: 'Your page description here', // Set a dynamic description
-  };
+ 
 
   return (
     <div>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
- 
-      </Head>
+      <Head> 
+      <link rel="icon"type="image/svg+xml" sizes="32x32" href="/icon.svg" />
+  </Head>
 
       <Benner />
       <Exprerience />
