@@ -89,7 +89,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';  // Import the useTranslations hook
 import Image from 'next/image';
-import exp from '@/../../public/image/crmelectro.jpg';
+import exp from '@/../../public/image/exp.png';
 
 const Exprerience = () => {
   const t = useTranslations('Exprerience');  // Load translations for 'Exprerience' namespace

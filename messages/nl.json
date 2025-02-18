@@ -46,6 +46,32 @@
     "noImage": "Geen Afbeelding Beschikbaar"
   },
 
+  "ElectricalInstallation": {
+    "title": "Elektrische Installaties voor Nieuwbouw en Renovaties",
+    "description": "Bent u op zoek naar een elektrisch installatiebedrijf om aan al uw elektrische behoeften te voldoen? Bij Lenbec bieden we op maat gemaakte oplossingen voor zowel nieuwbouw als renovatieprojecten. Van bedrading en sensorinstallatie voor brandveiligheid en toegangscontrole tot intercomsystemen, ons VCA-gecertificeerde personeel staat voor u klaar. Al onze teamleden spreken vloeiend Engels, waardoor een naadloze communicatie gegarandeerd is.",
+    "imageAlt": "Ervaren Aannemers"
+  },
+ 
+    "NetworkData": {
+      "title": "Netwerkinfrastructuur en Dataverbindingen",
+      "description": "Een betrouwbaar netwerk is essentieel voor moderne bedrijfsvoering. Wij bieden volledige ondersteuning voor LAN- en WiFi-netwerkinstallaties, inclusief montagebakken, leidingen en volledige bekabeling. Op verzoek verzorgen wij ook de uiteindelijke assemblage.",
+      "imageAlt": "Ervaren Aannemers"
+    },
+
+    "FireSafety": {
+      "title": "Brandveiligheid - Betrouwbare Branddetectiesystemen",
+      "description": "Lenbec installeert branddetectiesystemen en sensoren volgens uw technische tekeningen. Of het nu gaat om nieuwbouw of renovatie, onze experts installeren alle benodigde bedrading en branddetectiesensoren om de veiligheid van uw gebouw te garanderen.",
+      "imageAlt": "Ervaren Aannemers"
+    },
+
+    "AccessControl": {
+      "title": "Toegangscontrole - Moderne Beveiligingsoplossingen voor Gebouwen",
+      "description": "Van toegangscontrole tot intercomsystemen en gezichtsherkenning, Lenbec levert en installeert geavanceerde toegangssystemen. Onlangs hebben we een gezichtsherkenningssysteem van Hikvision geïnstalleerd, dat zeer effectief en gebruiksvriendelijk is en de beveiliging van elk gebouw verbetert.",
+      "imageAlt": "Ervaren Aannemers"
+    },
+  
+  
+
   "SomeProject": {
     "title": "Enkele van Onze Projecten",
     "description": "We zijn trots op de diverse projecten die we hebben voltooid, waaronder:",

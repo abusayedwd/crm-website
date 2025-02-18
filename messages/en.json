@@ -44,6 +44,34 @@
               "span": "– Comprehensive Solutions for Electrical and Safety Needs",
               "viewDetails": "View details"
             },
+            
+              "ElectricalInstallation": {
+                "title": "Electrical Installations for New Constructions and Renovations",
+                "description": "Are you looking for an electrical installation company to handle all your electrical needs? At Lenbec, we offer tailored solutions for both new construction and renovation projects. From wiring and sensor installation for fire safety and access control to intercom systems, our VCA-certified staff are here to help. All of our team members speak fluent English, ensuring seamless communication.",
+                "imageAlt": "Experienced Contractors"
+              },
+
+            
+                "NetworkData": {
+                  "title": "Network Infrastructure and Data Networking",
+                  "description": "A reliable network is essential for modern business operations. We provide full support for LAN and WiFi network installations, including mounting trays, conduits, and full cabling. Upon request, we also complete the final assembly.",
+                  "imageAlt": "Experienced Contractors"
+                },
+
+                "FireSafety": {
+                  "title": "Fire Safety - Reliable Fire Detection Systems",
+                  "description": "Lenbec installs fire detection systems and sensors according to your technical drawings. Whether for new constructions or renovations, our experts install all necessary wiring and fire detection sensors to ensure the safety of your building.",
+                  "imageAlt": "Experienced Contractors"
+                },
+
+                "AccessControl": {
+                  "title": "Access Control - Modern Security Solutions for Buildings",
+                  "description": "From access control to intercom systems and facial recognition, Lenbec supplies and installs advanced access systems. Recently, we installed a facial recognition system by Hikvision, which is highly effective and user-friendly, enhancing security for any building.",
+                  "imageAlt": "Experienced Contractors"
+                },
+            
+              
+        
            
                 "FeaturedProject": {
                   "title": "Our Projects",

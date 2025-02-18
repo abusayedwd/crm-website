@@ -40,6 +40,10 @@ import Exprerience from "../component/home/Exprerience";
 import FeaturedProject from "../component/home/FeaturedProject";
 import ServicePage from "../component/home/Service";
 import SomeProject from "../component/home/SomeProject";
+import ElectricalInstallationSection from '../component/home/Electrical';
+import NetworkData from '../component/home/NetworkData';
+import FireSafty from '../component/home/FireSafty';
+import AccessControl from '../component/home/AccessControl';
 
 export default function Home() {
  
@@ -52,11 +56,15 @@ export default function Home() {
 
       <Benner />
       <Exprerience />
-      <SomeProject />
+      <ElectricalInstallationSection />
       <ServicePage />
+      <NetworkData />
+      <SomeProject />
+      <FireSafty />
       <FeaturedProject />
-      <QuotePage />
+      <AccessControl />
       <ClientTestimonial />
+      <QuotePage />
     </div>
   );
 }
