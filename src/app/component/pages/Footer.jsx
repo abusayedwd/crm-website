@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="bg-gray-900 text-white py-10 px-4 md:px-10 lg:px-20">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
 
           {/* About Us Section */}
           <div className="md:col-span-2">
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
 
           {/* Newsletter Subscription */}
-          <div>
+          {/* <div>
             <h2 className="text-lg font-semibold mb-2">{t('newsletter.title')}</h2>
             <div className="flex items-center">
               <Input
@@ -61,7 +61,7 @@ export default function Footer() {
                 className="bg-gray-800 hover:text-black rounded"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Footer Bottom */}

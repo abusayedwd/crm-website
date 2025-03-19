@@ -139,10 +139,8 @@ const ServicePage = () => {
   return (
     <div id="service" className="container px-4 mt-2 md:mt-20">
       {/* Timeline Section */}
-      <div className="bg-gray-700 p-8 rounded-md text-white">
-        
-      <div className="text-center my-8 ">
-        <div className="flex flex-col md:flex-row justify-center  md:justify-between">
+      {/* <div className="text-center my-8">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between">
           <div className="mb-4 md:mb-0">
             <div className="text-center">
               <p className="text-sm md:text-base">{t("step1")}</p>
@@ -168,34 +166,33 @@ const ServicePage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       
-      <div className="flex items-center  justify-between border-t border-gray-300 mt-8">
-        {/* Timeline Step */}
+      {/* <div className="flex items-center justify-between border-t border-gray-300 mt-8">
+    
         <div className="flex-1 flex items-center justify-center">
           <div className="w-4 h-4 relative -top-2 bg-black rounded-full"></div>
         </div>
-        
-        {/* Timeline Step */}
-        <div className="flex-1 flex items-center justify-center">
-          <div className="w-4 h-4 relative -top-2 bg-black rounded-full"></div>
-        </div>
-
-        {/* Timeline Step */}
+      
         <div className="flex-1 flex items-center justify-center">
           <div className="w-4 h-4 relative -top-2 bg-black rounded-full"></div>
         </div>
 
-        {/* Timeline Step */}
+      
         <div className="flex-1 flex items-center justify-center">
           <div className="w-4 h-4 relative -top-2 bg-black rounded-full"></div>
         </div>
-      </div>
-      </div>
+
+       
+        <div className="flex-1 flex items-center justify-center">
+          <div className="w-4 h-4 relative -top-2 bg-black rounded-full"></div>
+        </div>
+      </div> */}
+      
 
       {/* Service Section */}
       <h2 className="lg:text-[44px] md:text-3xl font-medium py-4 text-2xl mb-6">
-        {t("ourService")} <span className="md:text-[30px] lg:text-[30px] text-sm">{t("span")}</span>
+        {t("ourService")}
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 py-6">

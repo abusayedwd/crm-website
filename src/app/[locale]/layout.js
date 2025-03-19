@@ -49,44 +49,31 @@
 
 
 import 'tailwindcss/tailwind.css';
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { NextIntlClientProvider } from 'next-intl'; // Import the provider to make translations available in the app
+import { getMessages } from 'next-intl/server'; // Import function to retrieve translation messages
+import { notFound } from 'next/navigation'; // Import notFound function for 404 handling
+import { routing } from '@/i18n/routing'; // Import routing configuration for supported locales
 import Navbar from '../component/pages/Navbar';
 import Footer from '../component/pages/Footer';
 import Providers from "@/redux/Provider";
 
-// Metadata for the page
-export const metadata = {
-  title: "Lets Build Together | Electrical Installation Company for Wiring, Networks, and Safety Solutions",
-  description: "Lenbec is an experienced electrical installation company offering complete solutions for wiring, network infrastructure, fire safety, and access control systems. Our VCA-certified experts are ready to support your new construction and renovation projects in the Netherlands and beyond. Contact us today to learn more about our services and request a quote.",
-};
-
 export default async function LocaleLayout({ children, params }) {
-  const { locale } = params;
+  // Ensure `params` is awaited
+  const { locale } = await params;
 
-  // Handle invalid locale
   if (!routing.locales.includes(locale)) {
     notFound();
   }
 
-  // Fetch messages for localization
-  const messages = await getMessages(locale);
+  const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <head>
-        {/* Metadata */}
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon.svg" />
-      </head>
-      <body> 
-        {/* Internationalization and Redux Provider */}
+    <html lang={locale}>  
+      <body>
+        {/* Provide the translation messages to the client-side using NextIntlClientProvider */}
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            <Navbar />
+            <Navbar /> 
             {children}
             <Footer />
           </Providers>
@@ -94,5 +81,4 @@ export default async function LocaleLayout({ children, params }) {
       </body>
     </html>
   );
-}
- 
+}    

@@ -157,6 +157,7 @@
 
 // export default FeaturedProject;
 
+
 "use client";
 
 import React from "react";
@@ -237,7 +238,7 @@ const FeaturedProject = () => {
                 >
                   <h1 className="font-semibold text-[16px] mb-4">{project?.title}</h1>
                   <Link href={`/projectdetails/${project?._id}`}>
-                    <Button className="bg-[#F1DE47] font-medium">
+                    <Button className="bg-[#F5FF5A] font-medium">
                       {t("details")}
                     </Button>
                   </Link>
