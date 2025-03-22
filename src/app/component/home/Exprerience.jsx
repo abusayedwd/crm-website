@@ -97,8 +97,8 @@ const Exprerience = () => {
    const { data: projects } = useAllProjectQuery();
   //  console.log(projects?.data?.attributes?.length)
   return (
-    <div id="about" className="bg-[#A4A4A4]">
-      <div className="md:flex flex-col md:flex-row items-center justify-center gap-6 md:gap-60">
+    <div id="about" className="bg-[#A4A4A4] ">
+      <div className="md:flex flex-col container md:flex-row items-center justify-center gap-6 md:gap-60">
         {/* Stats Section */}
         <div className="flex flex-col md:flex-row gap-6 md:mt-0 text-center md:text-left">
           <div>
@@ -106,7 +106,7 @@ const Exprerience = () => {
             <p>{t('yearsText')}</p>
           </div>
           <div>
-            <span className="text-4xl font-bold text-[#F5FF5A]">{projects?.data?.attributes?.length}</span>
+            <span className="text-4xl font-bold text-[#F5FF5A]">{t('projectsCompleted')}</span>
             <p>{t('projectsText')}</p>
           </div>
           {/* <div>
@@ -145,7 +145,7 @@ const Exprerience = () => {
         </div>
 
         {/* Text Section */}
-        <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+        <div className="md:w-1/2  md:text-left mb-8 md:mb-0">
           <h2 className="text-4xl font-bold text-[#F5FF5A]">{t('textHeading')}</h2>
           <p className="mt-4">{t('description1')}</p>
           <p className="mt-4">{t('description2')}</p>

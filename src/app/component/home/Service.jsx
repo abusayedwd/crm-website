@@ -122,7 +122,8 @@
 
 "use client";
 
-import React from "react";
+import React from "react"; 
+ 
 import { useTranslations } from "next-intl";  // Import useTranslations hook
 import { Card, Timeline } from "antd";
 // import service1 from "@/../../public/image/service1 (2).png";
@@ -135,9 +136,9 @@ import Link from "next/link";
 const ServicePage = () => {
   const { data: services } = useAllServiceQuery();
   const t = useTranslations("ServicePage");  // Load translations for 'ServicePage' namespace
-  
+  console.log(services)
   return (
-    <div id="service" className="container px-4 mt-2 md:mt-20">
+    <div id="service" className="container mx-auto mt-2 md:mt-20">
       {/* Timeline Section */}
       {/* <div className="text-center my-8">
         <div className="flex flex-col md:flex-row justify-center md:justify-between">
@@ -201,10 +202,11 @@ const ServicePage = () => {
           <div key={service?._id} className="relative rounded-lg h-96 overflow-hidden shadow-lg">
             <Image
               src={url + service?.serviceImage?.publicFileUrl}
-              alt={service?.title}
+              alt={"image"}
               width={300}  // Adjusted size
               height={200}
-              className="w-full h-48 md:h-48 lg:h-[500px] object-cover opacity-80"
+              className="w-full h-auto md:h-48 lg:h-[500px] object-cover opacity-80"
+
             />
             <div className="absolute bottom-0 left-0 right-0 bg-orange-600 bg-opacity-70 p-4 text-white">
               <h3 className="text-lg md:text-xl font-medium">{service?.title}</h3>

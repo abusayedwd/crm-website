@@ -15,7 +15,7 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: "4rem",
+       
     },
     extend: {
       backgroundColor: {

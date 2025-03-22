@@ -44,6 +44,7 @@ import ElectricalInstallationSection from '../component/home/Electrical';
 import NetworkData from '../component/home/NetworkData';
 import FireSafty from '../component/home/FireSafty';
 import AccessControl from '../component/home/AccessControl';
+import CompleteElectrical from '../component/home/CompleteElectrical';
 
 export default function Home() {
  
@@ -59,6 +60,7 @@ export default function Home() {
       <ElectricalInstallationSection />
       <ServicePage />
       <NetworkData />
+      <CompleteElectrical />
       <SomeProject />
       <FireSafty />
       <FeaturedProject />

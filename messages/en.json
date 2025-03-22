@@ -20,8 +20,8 @@
 
     
         "Exprerience": {
-          "yearsOfExperience": "25+",
-          "projectsCompleted": "378+",
+          "yearsOfExperience": "4+",
+          "projectsCompleted": "7+",
           "winningGlobalAwards": "69+",
           "yearsText": "Years of Experience",
           "projectsText": "Projects Completed",
@@ -55,6 +55,12 @@
                 "NetworkData": {
                   "title": "Network Infrastructure and Data Networking",
                   "description": "A reliable network is essential for modern business operations. We provide full support for LAN and WiFi network installations, including mounting trays, conduits, and full cabling. Upon request, we also complete the final assembly.",
+                  "imageAlt": "Experienced Contractors"
+                },
+
+                "Electrical": {
+                  "title": "Complete Electrical Preparation and Installation",
+                  "description": "We handle all preparatory work for electrical systems, such as installing cable trays and conduits, and laying electrical wiring. We also install switches, lighting, and offer retrofitting solutions for clients aiming to improve building energy labels. These solutions are fast and affordable, ideal for upgrading office buildings sustainably.",
                   "imageAlt": "Experienced Contractors"
                 },
 
@@ -111,6 +117,7 @@
                         "submitButton": "Submit"
                       },
                       "contactInfo": {
+                        "contact": "Contact Info",
                         "location": "Our Location:",
                         "address": "Liedekerkeplantsoen 26, 1066WP Amsterdam",
                         "quickContact": "Quick Contact:",
@@ -118,7 +125,7 @@
                         "phone": "+31623473855",
                         "openingHours": "Opening Hours:",
                         "workingDays": "Monday - Friday",
-                        "workingHours": "09:00 AM - 06:00 PM",
+                        "workingHours": "01:00 - 18:00",
                         "contactUs": "Do you have any questions? Just contact us to get help!"
                       }
                     },
@@ -144,7 +151,7 @@
                             "title": "Subscribe To Our Newsletter",
                             "placeholder": "Enter your email address"
                           },
-                          "footerBottom": "Copyright © 2023 CompanyAF. All Rights Reserved"
+                          "footerBottom": "Copyright © 2023 Lenbec. All Rights Reserved"
                         },
                     
                     

@@ -215,14 +215,14 @@ const QuotePage = () => {
       <Toaster />
       <div className="mb-10 px-4">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
-          {t('header')}
+          {/* {t('header')} */}
         </h1>
-        <div className="flex flex-wrap justify-center mt-4 space-x-2 text-sm md:text-base text-gray-600">
+        {/* <div className="flex flex-wrap justify-center mt-4 space-x-2 text-sm md:text-base text-gray-600">
           <span>{t('services.professionalStaff')}</span>
           <span>{t('services.satisfaction')}</span>
           <span>{t('services.accurateTesting')}</span>
           <span>{t('services.transparentPricing')}</span>
-        </div>
+        </div> */}
       </div>
 
       {/* Main Content Section */}
@@ -298,7 +298,7 @@ const QuotePage = () => {
 
         {/* Contact Info Section */}
         <div className="bg-[#F1DE47] p-6 rounded-lg shadow-lg w-[100%] md:w-2/5">
-          <h2 className="text-xl font-semibold mb-4">Contact Info</h2>
+          <h2 className="text-xl font-semibold mb-4">{t('contactInfo.contact')}</h2>
           <div className="space-y-2">
             <p>
               <strong>{t('contactInfo.location')}</strong><br />
@@ -314,10 +314,10 @@ const QuotePage = () => {
               {t('contactInfo.workingDays')}<br />
               {t('contactInfo.workingHours')}
             </p>
-            <p>{t('contactInfo.contactUs')}</p>
-            <Button type="primary" className="w-full bg-black text-white">
+            <p className='bg-black text-white px-2 py-1 rounded-md'>{t('contactInfo.contactUs')}</p>
+            {/* <Button  className=" w-full md:hidden bg-black text-white">
               {t('contactInfo.contactUs')}
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

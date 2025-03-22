@@ -13,7 +13,7 @@ const ElectricalInstallationSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-between md:space-x-12 space-y-8 md:space-y-0">
           
           {/* Text Content */}
-          <div className="w-full md:w-1/2 text-center md:text-left">
+          <div className="w-full md:w-1/2  text-left">
             <h2 className="text-2xl md:text-4xl font-bold text-yellow-500 mb-4">
               {t("title")}
             </h2>

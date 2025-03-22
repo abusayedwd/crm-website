@@ -2,13 +2,13 @@
 
 import { useTranslations } from "next-intl"; // Import translation hook
 import Image from "next/image";
-import electo from "@/../../public/image/crmelectro.jpg";
+import electo from "@/../../public/image/story.png";
 
-const AccessControl = () => {
-  const t = useTranslations("AccessControl"); // Load translations dynamically
+const CompleteElectrical = () => {
+  const t = useTranslations("Electrical"); // Load translations dynamically
 
   return (
-    <div className="bg-gray-100 mt-12 py-12">
+    <div className=" mt-12 py-12">
       <div className="container mx-auto">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between md:space-x-12 space-y-8 md:space-y-0">
           
@@ -38,5 +38,4 @@ const AccessControl = () => {
   );
 };
 
-export default AccessControl;
-
+export default CompleteElectrical;

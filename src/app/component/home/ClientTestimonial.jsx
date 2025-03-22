@@ -7,7 +7,7 @@ const ClientTestimonial = () => {
   const t = useTranslations("Testimonial");
 
   return (
-    <div className="px-5">
+    <div className="container">
       <h1 className="md:text-[44px] text-[34px] py-5 md:container  font-semibold">
         {t("title")}
       </h1>
@@ -17,7 +17,7 @@ const ClientTestimonial = () => {
             <Image
               src={exp}
               alt="Experienced Contractors"
-              className="max-w-full md:w-[700px] md:h-[420px] rounded-lg"
+              className="max-w-full md:w-[700px] md:h-[420px] h-60 rounded-lg"
             />
           </div>
           <div className="w h-full md:w-1/2">
