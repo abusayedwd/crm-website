@@ -22,6 +22,7 @@ export default function Footer() {
             </h2>
             <p className="text-sm">
               {t('aboutUs')}
+              dfdsfddfdfdf
             </p>
           </div>
 
