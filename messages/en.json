@@ -5,7 +5,7 @@
         "home": "Home",
         "about": "About Us",
         "service": "Service",
-        "projects": "Project",
+        "projects": "Projects",
         "contact": "Contact Us",
         "language": "English",
         "dutch": "Dutch"
@@ -135,7 +135,7 @@
                           "aboutUs": "With a team of certified professionals and a commitment to high-quality materials and structured work methods, we confidently deliver top-notch building, insulating, and electrotechnical services, ensuring timely project completion.",
                           "office": {
                             "title": "Office",
-                            "address": " Lenbec B.V. Adres Liedekerkeplantsoen 26, 1066WP Amsterdam",
+                            "address": "Liedekerkeplantsoen 26, 1066WP Amsterdam",
                             "social": {
                               "linkedin": "LinkedIn",
                               "facebook": "Facebook",

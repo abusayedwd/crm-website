@@ -10,7 +10,7 @@
 //     <div className=" py-12 container">
 //       <div className="  flex items-center justify-between space-x-12">
 //         <div className="w-1/2">
-//           <h2 className="text-4xl font-bold text-yellow-500 mb-4">
+//           <h2 className="text-4xl font-bold text-[#F5FF5A] mb-4">
 //           Network Infrastructure and Data Networking
 //           </h2>
 //           <p className="text-lg text-gray-700">

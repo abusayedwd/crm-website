@@ -28,7 +28,7 @@ const SomeProject = () => {
            <div className="w-full md:w-1/2 flex justify-center">
                       <Image
                         src={project1}
-                        alt={t("imageAlt")}
+                        alt={"imageAlt"}
                         className="max-w-full rounded-lg md:h-[450px]"
                         width={600}
                         height={420}

@@ -60,9 +60,9 @@ const Navbar = () => {
           {/* Centered Navigation Links */}
           <div className="hidden md:flex justify-center text-white flex-grow space-x-8 text-lg">
             <Link href="/" className="hover:text-[#FF7420] text-[#F1DE47]">{t('home')}</Link>
-            <Link href="#about" className="hover:text-[#FF7420] text-[#F1DE47]">{t('about')}</Link>
             <Link href="#service" className="hover:text-[#FF7420] text-[#F1DE47]">{t('service')}</Link>
             <Link href="#projects" className="hover:text-[#FF7420] text-[#F1DE47]">{t('projects')}</Link>
+            <Link href="#about" className="hover:text-[#FF7420] text-[#F1DE47]">{t('about')}</Link>
           </div>
 
           {/* Language and Contact Button */}
@@ -109,13 +109,13 @@ const Navbar = () => {
           } transition-transform duration-300 ease-in-out md:hidden w-[60%]`}
         >
           <Link href="/" className="block hover:text-blue-600 py-2" onClick={toggleMenu}>{t('home')}</Link>
-          <Link href="#projects" className="block hover:text-blue-600 py-2" onClick={toggleMenu}>{t('projects')}</Link>
           <Link href="#service" className="block hover:text-blue-600 py-2" onClick={toggleMenu}>{t('service')}</Link>
+          <Link href="#projects" className="block hover:text-blue-600 py-2" onClick={toggleMenu}>{t('projects')}</Link>
           <Link href="#about" className="block hover:text-blue-600 py-2" onClick={toggleMenu}>{t('about')}</Link>
 
           {/* Contact Button in Mobile Menu */}
           <Link href="#contact">
-            <Button onClick={toggleMenu} className="rounded !text-white !bg-[#FF7420]">{t('contact')}</Button>
+            <Button onClick={toggleMenu} className="rounded !bg-[#F5FF5A]">{t('contact')}</Button>
           </Link>
         </div>
       </nav>
