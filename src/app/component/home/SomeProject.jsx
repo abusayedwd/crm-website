@@ -8,10 +8,11 @@ const SomeProject = () => {
   const t = useTranslations("SomeProject");
   return (
     <div className="container mx-auto">
-      <h1 className="md:text-[44px] py-5 font-semibold">{t("title")}</h1>
+      
 
       <div className="flex flex-col md:flex-row items-center justify-between md:space-x-12 space-y-8 md:space-y-0">
         <div className="w-full md:w-1/2">
+      <h1 className="md:text-[44px] py-5 text-yellow-500 font-semibold">{t("title")}</h1>
           <p className="font-medium">{t("description")}</p>
           <ul>
             <li>{t("project1")}</li>

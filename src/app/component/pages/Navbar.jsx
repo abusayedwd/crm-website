@@ -78,7 +78,8 @@ const Navbar = () => {
                   backgroundColor: 'transparent',
                 }}
                 dropdownStyle={{
-                  backgroundColor: '#333',
+                  backgroundColor: '#F1DE47',
+                  padding: "8px"
                 }}
               >
                 <Select.Option value="en">{t('language')}</Select.Option>
