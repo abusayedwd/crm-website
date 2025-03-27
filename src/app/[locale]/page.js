@@ -57,15 +57,15 @@ export default function Home() {
 
       <Benner />
       <Exprerience />
-      <ElectricalInstallationSection />
       <ServicePage />
       <NetworkData />
-      <CompleteElectrical />
       <SomeProject />
       <FireSafty />
-      <FeaturedProject />
       <AccessControl />
-      <ClientTestimonial />
+      <ElectricalInstallationSection />
+      <CompleteElectrical />
+      <FeaturedProject />
+      {/* <ClientTestimonial /> */}
       <QuotePage />
     </div>
   );

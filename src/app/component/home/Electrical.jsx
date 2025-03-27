@@ -25,9 +25,9 @@ const ElectricalInstallationSection = () => {
             <Image
               src={electro}
               alt={t("imageAlt")}
-              className="max-w-full rounded-lg"
+              className=" rounded-lg h-[300px] md:h-[400px]"
               width={600}
-              height={320}
+              height={220}
               priority
             />
           </div>

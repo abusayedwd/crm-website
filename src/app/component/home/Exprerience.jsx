@@ -106,7 +106,8 @@ const Exprerience = () => {
             <p>{t('yearsText')}</p>
           </div>
           <div>
-            <span className="text-4xl font-bold text-[#F5FF5A]">{t('projectsCompleted')}</span>
+            {/* <span className="text-4xl font-bold text-[#F5FF5A]">{t('projectsCompleted')}</span> */}
+            <span className="text-4xl font-bold text-[#F5FF5A]">{projects?.data?.attributes?.length}+</span>
             <p>{t('projectsText')}</p>
           </div>
           {/* <div>
